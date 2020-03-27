@@ -1,0 +1,19 @@
+[user]
+	name = Dv-Andrew
+	email = dvoeglazov.andrey24@gmail.com
+
+[alias]
+	lg = log --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+	unstage = reset HEAD
+	st = status -sb
+	undo = checkout --
+	subupdate = submodule update --init --recursive
+
+[color]
+	ui = auto
+
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
