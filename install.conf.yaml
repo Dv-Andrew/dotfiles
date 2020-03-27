@@ -1,0 +1,17 @@
+- clean: ['~']
+
+- link:
+    ~/.dotfiles: ''
+    ~/.git: git/
+    ~/.gitconfig: git/gitconfig
+    ~/.zshrc: zsh/zshrc
+    ~/.tmux.conf: tmux/tmux.conf
+    ~/.tmux: tmux/
+    ~/.vim: vim/
+    ~/.vimrc: vim/vimrc
+    ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions: zsh/plugins/zsh-autosuggestions
+    ~/.oh-my-zsh/custom/plugins/history-search-multi-word: zsh/plugins/history-search-multi-word
+
+- shell:
+  - [git submodule update --init --recursive, Installing submodules]
+  - vim +PluginInstall +qall
