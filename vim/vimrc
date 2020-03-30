@@ -74,6 +74,5 @@ set novisualbell
 set statusline=%F%m%r%h%w\ [FORMAT=%{&ff}]\ [TYPE=%Y]\ [POS=%l,%v][%p%%]\ [BUFFER=%n]\ %{strftime('%c')}
 
 " Backup
-set undofile      
 set noswapfile
 set nobackup
