@@ -4,7 +4,7 @@
 
 [core]
 	editor = vi
-	autocrlf = true
+	autocrlf = input 
 
 [color]
 	ui = auto
