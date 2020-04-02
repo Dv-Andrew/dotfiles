@@ -4,7 +4,8 @@
 
 [core]
 	editor = vi
-	autocrlf = input 
+	autocrlf = input
+	excludesFile = ~/.gitignore
 
 [color]
 	ui = auto
