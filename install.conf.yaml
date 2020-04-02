@@ -5,6 +5,7 @@
     ~/.git: git/
     ~/.gitconfig: git/gitconfig
     ~/.gitignore: git/gitignore
+    ~/.gitattributes: git/gitattributes
     ~/.zshrc: zsh/zshrc
     ~/.tmux.conf: tmux/tmux.conf
     ~/.tmux: tmux/

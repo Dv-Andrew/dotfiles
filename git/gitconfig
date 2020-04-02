@@ -6,6 +6,7 @@
 	editor = vi
 	autocrlf = input
 	excludesFile = ~/.gitignore
+	attributesFile = ~/.gitattributes
 
 [color]
 	ui = auto
