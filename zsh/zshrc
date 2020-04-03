@@ -71,6 +71,8 @@ HIST_STAMPS="dd-mm-yyyy"
 plugins=(
     iterm2
     tmux
+    docker
+    docker-compose
     colored-man-pages
 )
 
