@@ -15,6 +15,7 @@ brew "jq"
 brew "sl"
 brew "cmatrix"
 brew "cowsay"
+brew "thefuck"
 # Casks
 cask 'docker'
 cask 'dropbox'
@@ -33,4 +34,3 @@ cask 'transmission'
 cask 'visual-studio-code'
 cask 'vlc'
 cask 'vnc-viewer'
-cask 'vk-messenger'
