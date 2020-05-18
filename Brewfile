@@ -2,6 +2,7 @@
 cask_args appdir: '/Applications'
 # install packages
 brew "python"
+brew "deno"
 brew "node"
 brew "yarn"
 brew "fish"
@@ -26,7 +27,6 @@ cask 'google-chrome'
 cask 'insomnia'
 cask 'jetbrains-toolbox'
 cask 'macpass'
-cask 'minecraft'
 cask 'skype'
 cask 'slack'
 cask 'steam'
